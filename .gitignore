@@ -4,6 +4,12 @@ __pycache__/
 *$py.class
 
 .idea/
+.vscode/
+.DS_Store
+
+data/
+!data/.keep
+out_index/
 
 # C extensions
 *.so
@@ -109,6 +115,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.dvenv
 env/
 venv/
 ENV/
