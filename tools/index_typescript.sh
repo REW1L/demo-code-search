@@ -10,7 +10,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r code_search/index_ts/requirements_snippets.txt
 python3 -m code_search.index_ts.create_qdrant_snippets
-python3 -m code_search.index_ts.files_to_json
 cat <<EOF > $ROOT_PATH/tools/ts_send_snippets.sh
 #!/bin/bash
 cd /app
